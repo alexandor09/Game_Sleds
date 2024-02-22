@@ -1,0 +1,70 @@
+body {
+    background-color: #db7676;
+}
+.Main{
+        background-color: #db7676;
+}
+
+.figure {
+    position: absolute;
+}
+
+.pic {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    border: solid whitesmoke;
+}
+
+
+main {
+    background-color: #c27676;
+    height: 80vh;
+    min-height: 500px;
+}
+
+.content {
+    flex-direction: row;
+    align-items: flex-start;
+    display: flex;
+}
+
+.buttons {
+    margin: 10px 5px 10px 10px;
+    font-size: 15px;
+}
+
+.buttons button {
+    margin: 10px 5px 10px 10px;
+    font-size: 15px;
+    width: 120px;
+}
+
+a{
+    position: absolute; 
+    top: 80%; 
+    left: 7px;
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    width: 98%;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 98%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+    background-color: #c28989;
+    color: rgb(22, 52, 148);
+    top: 100%;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}

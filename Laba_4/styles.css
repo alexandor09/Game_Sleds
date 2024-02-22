@@ -1,0 +1,87 @@
+body {
+    background-color: #db7676;
+}
+
+.class1 {
+    background-color: #c1a8f0; /* Цвет фона для class1 */
+}
+
+.class2 {
+    background-color: #dda96f; /* Цвет фона для class2 */
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#rand {
+    margin-top: 20px;
+}
+p{
+    margin: 0;
+    width: 98%;
+}
+#rand{
+    width: 50%;
+    right: 50%;
+    margin-left: 50%;
+    position: absolute;
+    top: 10%;
+    left: 0px;
+}
+#phrase-container{
+width: 98%;
+margin-top: 20px;
+}
+
+.Main {
+    width: 50%;
+    height: 450px;
+    top: 10%;
+    position: absolute; 
+}
+.create{
+    width: 98%;
+    position: absolute;
+    top: -20px;
+    background-color: #61d44a;
+}
+.show{
+    width: 98%;
+    position: absolute;
+    background-color: #61d44a;
+}
+.pokras{
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    font-weight: bold;
+    background-color: #61d44a;
+}
+
+a{
+    position: absolute; 
+    top: 40%; 
+    left: 7px;
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    width: 98%;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 98%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: center;
+    background-color: #c28989;
+    color: rgb(22, 52, 148);
+}
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}

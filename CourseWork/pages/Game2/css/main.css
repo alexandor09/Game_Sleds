@@ -1,0 +1,184 @@
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+main {
+    flex: 1 0 auto;
+    display: flex;
+    background-color: #cccccc;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+width: 100%;
+}
+
+#buttons button {
+    width: 100%; /* Ширина рейтинга */
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+
+.main_container {
+    flex: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+
+.profile {
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+.console {
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.input_text {
+    flex: 0%;
+}
+
+.submit_button {
+    flex: 30%;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+.list_of_name {
+    border: 1px solid black;
+    /*height: 100%;*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    background: rgb(167, 219, 44);
+}
+
+.player_name {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: sans-serif;
+    margin: 15px;
+}
+
+
+.score {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: sans-serif;
+    margin: 15px;
+}
+
+.top_row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.left_number {
+
+}
+
+.field_for_answer {
+    border: 4px solid black;
+    height: 110px;
+    width: 110px
+}
+
+.progress_bar {
+    display: flex;
+    height: 15px;
+    width: 80%;
+    align-items: center;
+}
+
+.green_line {
+    margin: 15px 0;
+    width: 50%;
+    height: 15px;
+    background: green;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.red_line {
+    margin: 15px 0;
+    width: 50%;
+    height: 15px;
+    background: red;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.main_square {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    cursor: pointer;
+    margin: 15px;
+    height: 75px;
+    width: 75px;
+    /*z-index: 10;*/
+    position: absolute;
+}
+
+.mini_square {
+    background: darkblue;
+    height: 25px;
+    width: 25px;
+}
+
+.bottom_row {
+    width: 80%;
+    border: 1px solid black;
+    height: 80vh;
+    background-image: url("../../../assets/images/Sleds.png");
+}
+
+@keyframes rotate-animation {
+    0% {
+        transform: rotate(0deg)
+    }
+    20% {
+        transform: rotate(90deg)
+    }
+    40% {
+        transform: rotate(180deg)
+    }
+    60% {
+        transform: rotate(270deg)
+    }
+    80% {
+        transform: rotate(360deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+

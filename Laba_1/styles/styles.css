@@ -1,0 +1,109 @@
+
+html {
+	font-size:162.5%;
+  background-color: #8cc467;
+  padding-left: 7%;
+  padding-top: 3%;
+  padding-bottom: 20%;
+}
+summary{
+  font-size:200%;
+}
+body {
+  background-color:#8fdb5c;
+}
+footer{
+  background-color:#51862e;
+}
+
+#col1 {
+  padding: auto;
+  width: 17%; /* Ширина первой колонки */
+  background: #ff0202; /* Цвет фона первой колонки */
+ }
+
+
+ #layer {
+  width: 300px; /* Ширина слоя */
+  height: 300px;
+  background: blue; /*Незабываем про фон контейнера*/
+  margin:  auto;
+  
+  transform: skewX(-7deg); /*Поворачиваем блок*/  
+  border-radius: 30%;
+  text-align: center;
+  overflow: hidden; /*Чтобы картинка не выходила за контейнер*/ 
+  padding: 10px; /* Поля вокруг текста */
+  background: #fc0; /* Цвет фона */
+  border: 5px dashed black;/* Параметры границы */
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(to right, blue, red); /* Градиент от синего к красному слева направо */
+  margin: auto;
+  transform: skewX(7deg); /* Наклон текста по диагонали */
+  border-radius: 30%;
+  text-align: center;
+  overflow: hidden;
+  padding: 10px;
+  border: 5px dashed black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Горизонтальное центрирование */
+  align-items: center; /* Вертикальное центрирование */
+  font-family: sans-serif;
+ }
+
+ #layer p {
+  transform: skewX(-45deg) scaleY(1.5); /* Наклон текста по диагонали и увеличение высоты букв на 50% */
+  font-size: 50px; 
+  margin: 0; /* Убираем внешние отступы у параграфа */
+  margin-left: 100;
+  transform: rotate(-30deg);
+}
+
+.flex-container {
+  display: flex;
+  padding-top: 20px;
+}
+
+.content {
+  padding-top: 120px;
+  font-size: 70px; 
+  justify-content: center;
+  align-items: center;
+  /*flex: 40%; /* Доля ширины блока с контентом */
+}
+
+.image {
+  margin:  auto;
+  padding-left: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Горизонтальное центрирование */
+  align-items: center; /* Вертикальное центрирование */
+}
+
+/* Кнопка назад */
+
+a{
+  text-decoration: none; /* Убирает подчеркивание для ссылок */
+}
+
+.project {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-align: center;
+  background-color: #9be48d;
+  color: rgb(78, 80, 0);
+}
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
+}

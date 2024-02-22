@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <title>GAME</title>
+</head>
+<body>
+<header>
+
+</header>
+<div id="background">
+<div class="wrapper">
+    <main>
+        <div class="main_container">            
+            <div class="top_row">
+ <h1>Уровень:</h1>
+                <div class="level_number">
+                    <h1>0</h1>
+                </div>
+<h1>Счет:</h1>
+                <div class="left_number">
+                    <h1>0</h1>
+                </div>
+                
+                <div class="main_square">
+                    <div class="mini_square"></div>
+                    <div class="mini_square"></div>
+                    <div class="mini_square"></div>
+                    <div class="mini_square"></div>
+                    <div class="mini_square"></div>
+                    <div class="mini_square"></div>
+                    <div class="mini_square"></div>
+                    <div class="mini_square"></div>
+                    <div class="mini_square"></div>
+                </div>
+                <div class="field_for_answer"></div>
+<h1>Количество ошибок:</h1>
+                <div class="right_number">
+                    <h1>0</h1>
+                </div>
+
+                
+
+
+            </div>
+            
+            <div class="progress_bar">
+                <div class="green_line"></div>
+                <div class="red_line"></div>
+            </div>
+            <div class="bottom_row">
+                <div class="main_square"></div>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="timer">
+                Осталось времени: <span id="timerDisplay"> сек</span>
+            </div>
+            <div class="console">
+                
+               <div class="input_text"></div>
+                <div id="buttons">
+                    <button id="menuBtn">Главное меню</button>
+                    <button id="restartBtn">Начать заново</button>
+                    <button id="nextLevelBtn">Следующий уровень</button>
+                </div>
+            </div>
+            <div class="list_of_name">
+                <span class="player_name">Имя игрока</span>
+                <span class="score">Макс. кол-во очков</span>
+            </div>
+            
+        </div>
+        
+        <audio id="winSound" src="win_sound.mp3"></audio>
+
+	<audio id="loseSound" src="loss_sound.mp3"></audio>
+</div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/main.js"></script>
+</div>
+</body>
+</html>

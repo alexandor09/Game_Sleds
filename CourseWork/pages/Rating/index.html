@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <title>ИГРА СЛЕДЫ</title>
+    </head>
+<body class="body" id="suda">
+    <header class="header">
+    <h1>ИГРА СЛЕДЫ</h1>
+    </header>
+    <main>
+       <div id="background">
+<table id="player-score-table">
+    <thead>
+        <tr>
+            <th>Игрок</th>
+            <th>Счёт</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+<br>
+<button class="watchbutton" type="button" id="returnToMenu">Назад</button>
+
+<script>
+  document.getElementById("returnToMenu").addEventListener("click", function() {
+    window.location.href = "..\\MainPage\\index2.html";
+  });
+</script>
+       </div> 
+       <script src="script.js"></script>
+    </main>
+<footer class="footer">
+    <div class="footcontain">
+        <audio src="../../assets/audio/backgroundMusic.mp3" autoplay>
+                <button></button>
+            </audio>
+           </div>
+</footer>
+</body>
+</html>

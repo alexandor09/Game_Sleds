@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,
+user-scalable=no">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/dragAndDrop.css" rel="stylesheet">
+    <title>Drag&Drop task</title>
+</head>
+<body>
+<header>
+</header>
+<main>
+        <div class="buttons">
+            <button id="once_again_btn">Обновить</button>
+        </div>
+        <h3>Для того, чтобы пройти уровень разместите класс существ в одной категории рядом друг с другом, при этом далеко от других существ из другой категории </h3>
+        <div class="figure bird"><img src="img/dragAndDrop/bird.png" class="pic bird"></div>
+        <div class="figure bird"><img src="img/dragAndDrop/parrot.png" class="pic bird"></div>
+        <div class="figure bird"><img src="img/dragAndDrop/owl.png" class="pic bird"></div>
+
+        <div class="figure beast"><img src="img/dragAndDrop/elephant.png" class="pic beast"></div>
+        <div class="figure beast"><img src="img/dragAndDrop/puma.png" class="pic beast"></div>
+        <div class="figure beast"><img src="img/dragAndDrop/wolf.png" class="pic beast"></div>
+
+        <div class="figure insects"><img src="img/dragAndDrop/bee.png" class="pic insects"></div>
+        <div class="figure insects"><img src="img/dragAndDrop/dragonfly.png" class="pic insects"></div>
+        <div class="figure insects"><img src="img/dragAndDrop/ladybug.png" class="pic insects"></div>
+        
+</main>
+
+<a href="..//index.html">
+    <div class="project" onmouseover="animateProject(this)" onmouseout="resetAnimation(this)">
+        <h5>Возврат на начальную страницу</h5>        
+    </div>
+</a>
+<script src="scripts/dragAndDrop.js
+"></script>
+</body>
+</html>

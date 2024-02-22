@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #db7676;
+}
+
+A {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+} 
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #333;
+}
+
+header p {
+    color: #181603;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #ddd;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+li {
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+li:hover {
+    background-color: #ddd;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#about p {
+    color: #555;
+}
+
+#projects h3 {
+    color: #333;
+}
+
+#contact p {
+    color: #555;
+}
